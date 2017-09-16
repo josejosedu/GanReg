@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_sexos">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+
+    <string-array name="array_razas">
+        <item>Raza</item>
+        <item>Morucha</item>
+        <item>Limusina</item>
+        <item>Charolais</item>
+        <item>Avileña</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/fila_consulta_recycler">
+
+
+    <TextView
+        android:id="@+id/noticia_titular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noticia"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/noticia_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/noticia_titular"
+        android:layout_toRightOf="@+id/imagen_noticia"
+        android:layout_toEndOf="@+id/imagen_noticia" />
+
+    <ImageView
+        android:id="@+id/imagen_noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/noticia_titular"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

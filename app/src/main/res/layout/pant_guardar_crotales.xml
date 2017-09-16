@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/ver_crotales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text="Ver existentes"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/custom_style_button"/>
+
+    <Button
+        android:id="@+id/registrar_crotales_manualmente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ver_crotales"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="Registrar nuevos manualmente"
+        style="@style/custom_style_button"/>
+
+    <Button
+        android:id="@+id/registrar_crot_barcodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registrar_crotales_manualmente"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Registrar nuevos mediante barcodes"
+        style="@style/custom_style_button"/>
+
+    <Button
+        android:id="@+id/eliminar_crotales_nuevos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Eliminar existentes"
+        android:layout_below="@+id/registrar_crot_barcodes"
+        android:layout_centerHorizontal="true"
+        style="@style/custom_style_button"/>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btnPruebas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acceder sin usuario"/>
+
+    <TextView
+        android:id="@+id/texto_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar sesión"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/iniEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/iniPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/iniEmail"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/recordarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recordar datos" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/texto_olvidaste_contrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="¿Olvidaste tu constraseña?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0E8AEE"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Registrarse"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0E8AEE"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

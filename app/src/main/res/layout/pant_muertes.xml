@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <AutoCompleteTextView
+        android:id="@+id/baja_crotal_muerte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Crotal animal muerto"
+        android:textAlignment="center"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/btn_baja_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar baja"
+        android:layout_below="@+id/baja_fecha_muerte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        style="@style/custom_style_button"/>
+
+    <TextView
+        android:id="@+id/baja_fecha_muerte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FECHA MUERTE"
+        android:layout_below="@+id/baja_crotal_muerte"
+        android:layout_centerHorizontal="true"
+        style="@style/custom_style_textvi"/>
+</RelativeLayout>

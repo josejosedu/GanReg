@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:title="@string/altas"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:title="@string/bajas"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:title="@string/consultas"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:title="@string/salud"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/otras_opciones">
+        <menu>
+
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:title="@string/crotales_nuevos"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:title="@string/notas"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:title="@string/conversor_unid"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:title="@string/calculadora"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:title="@string/cerrar_sesion"/>
+        </menu>
+    </item>
+</menu>
